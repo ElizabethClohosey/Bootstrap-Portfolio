@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+    /* background-image: url("images/memphis.png"); */
+}
+
+.container {
+    background-color: white;
+    margin-top: 20px;
+}
+
+#name {
+    width: 250px;
+    position: absolute;
+    left: 40px;
+    bottom: -10px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+    background-color: purple;
+    text-align: left;
+}
+
+h2 {
+    color: purple;
+    border-bottom: 1px solid purple;
+    padding-bottom: 10px;
+}
+
+.row-2 {
+    padding-top: 10px;
+}
+
+#hover {
+    color: black;
+}
+
+#hover:hover {
+    color: purple;
+}
+
+#hover:active {
+    color: black;
+}

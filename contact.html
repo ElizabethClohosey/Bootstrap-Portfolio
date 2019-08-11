@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Elizabeth Clohosey Portfolio - Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/contact.css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/contact.css">
+
 </head>
 
 <body>
 
      <!-- begin nav-bar  -->
-    <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav ml-auto" class="position">
+            <li class="nav-item active">
+                <a id="hover" class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <li class="nav-item portfolio">
+                <a id="hover" class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+            <li class="nav-item contact">
+                <a id="hover" class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-        <!-- end nav-bar  -->
+        <h1 id="name">Elizabeth Clohosey</h1>
+    </nav>
+         <!-- end nav-bar  -->
     
 
     <div class="container">
@@ -29,7 +34,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="page-header">
-                    <h1>Contact</h1>
+                    <h2>Contact</h2>
                 </div>
             </div>
         </div>
@@ -49,7 +54,7 @@
             </div>
         </form>
 
-        <button type="button" class="btn btn-primary btn-sm">Submit</button>
+        <button type="button" id="button" class="btn btn-primary btn-sm">Submit</button>
     </div>
 
     <footer>
